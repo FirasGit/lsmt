@@ -1,0 +1,8 @@
+debug/
+checkpoints/
+outputs/
+.vscode/
+__pycache__/
+old_stuff/
+evaluation_outputs/
+.ipynb_checkpoints/
