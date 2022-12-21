@@ -1,7 +1,7 @@
 Medical Diagnosis with Large Scale Multimodal Transfomer
 =========================
 
-This repository contains the code to our corresponding publication "Medical Diagnosis with Large Scale Multimodal Transformers - Leveraging Diverse Data for More Accurate Diagnosis".
+This repository contains the code to our corresponding publication "Medical Diagnosis with Large Scale Multimodal Transformers - Leveraging Diverse Data for More Accurate Diagnosis". In detail, it includes the model that we used to run the training of the neural networks on the MIMIC dataset and logs the results (such as the area under curve) on [weights and biases](https://wandb.ai)
 
 ![alt text](assets/model.png)
 
