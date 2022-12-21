@@ -1,7 +1,6 @@
 meta:
   prefix_name: ???
   output_dir: /data/home/firas/Desktop/work/combine_image_and_text/classification/checkpoints
-  evaluation_dir: /data/home/firas/Desktop/work/combine_image_and_text/evaluation_outputs
   checkpoint_path: False
   transforms: True
   precision: 32
