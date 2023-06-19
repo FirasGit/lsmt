@@ -1,0 +1,49 @@
+name: LSTM
+output_logits: 1
+num_channels: 3
+type: 'vit_small_patch16_384'
+transforms:
+  img_size: 384
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+meta:
+  patch_size: 16
+  dim: 384 # Has to be set according to the pretrained model
+  depth: 4
+  heads: 4
+  mlp_dim: 384
+  pool: 'cls'
+  dim_head: 128
+  dropout: 0.
+  emb_dropout: 0.
+  p_visual_dropout: 0.
+  p_feature_dropout: 0.
+  p_modality_dropout: 0.
+  deep_supervision: False
+  deep_supervised_merge: False
+  pretrained: True
+  pretrain_cxr: 
+    is_true: False
+    num_cxr_targets: 14
+  ehr_module:
+    num_freq_bands: 6
+    max_freq: 10
+    input_channels: 76
+    input_axis: 1
+    cross_heads: 1
+    cross_dim_head: 64
+    depth: 6
+    num_latents: 128
+    latent_dim: 128
+    latent_heads: 4
+    latent_dim_head: 32
+    attn_dropout: 0.
+    ff_dropout: 0.
+    weight_tie_layers: False
+    fourier_encode_data: True
+    self_per_cross_attn: 1
+    final_classifier_head: True
+
+
+
+

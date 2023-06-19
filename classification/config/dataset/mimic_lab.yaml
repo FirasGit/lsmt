@@ -1,0 +1,15 @@
+name: MIMICLab
+task: phenotyping
+ehr_data_dir: /data/home/firas/Desktop/work/other_groups/MedFuse/mimic4extract/data
+cxr_data_dir: /data/MIMIC
+labels_set: None
+data_ratio: 0.0
+data_pairs: paired_ehr_cxr
+drop_channel: False
+transforms:
+  resize: 384
+  crop: 384
+  add_noise:
+    is_true: False
+    mean: 1
+    std: 0.1

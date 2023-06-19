@@ -1,0 +1,1 @@
+The code in this folder is adapted from https://github.com/nyuad-cai/MedFuse and contains helper functions to setup the MIMIC dataset
